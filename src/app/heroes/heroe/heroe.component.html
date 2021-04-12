@@ -1,0 +1,15 @@
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+    <td>Funcion:</td>
+    <dd>{{obtenerNombre()}}</dd> <!--PRODUCOT DE UNA FUNCION-->
+    <td>Capitalizado:</td>
+    <dd>{{nombreCapitalizado}}</dd> <!--PRODUCTO DE UN GET-->
+</dl>
+
+<button (click)='cambiarNombre()'>Cambiar heroe</button>
+<button (click)='cambiarEdad()'>Cambiar edad</button>
